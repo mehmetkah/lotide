@@ -16,6 +16,8 @@ const countLetters = function (sentence) {
       obj.set(sentence[i], count);
     }
   } return Object.fromEntries(obj);
-}; console.log(countLetters("lighthouse in the house"))
+}; //console.log(countLetters("lighthouse in the house"))
 
 // "ali ata bak"
+
+module.exports= countLetters

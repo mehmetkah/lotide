@@ -42,16 +42,18 @@ const countOnly = function (firstNames, itemsToCount) {
   return Object.fromEntries(obj);
 };
 
-console.log(
+/*console.log(
   countOnly(firstNames, {
     Jason: true,
     Karima: true,
     Fang: true,
     Agouhanna: false,
   })
-);
+);*/
 
 (assertEqual(["Jason"], 1));
 assertEqual(["Karima"], undefined);
 assertEqual(["Fang"], 2);
 assertEqual(["Agouhanna"], undefined);
+
+module.exports=countOnly

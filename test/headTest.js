@@ -14,5 +14,9 @@ describe("#head", () => {
   });
 });
 
+it("returns '5' for ['5']", () => {
+  assert.strictEqual(head(['5']), '5'); 
+});
+
 //console.assert(assertEqual(head([5, 6, 7]), 8));
 //console.assert(assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello"));
